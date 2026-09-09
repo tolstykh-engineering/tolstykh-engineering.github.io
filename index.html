@@ -11,12 +11,21 @@
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="#top">TOLSTYKH <span>ENGINEERING</span></a>
-      <nav aria-label="Primary navigation">
-        <a href="#services">Services</a>
-        <a href="#expertise">Expertise</a>
-        <a href="#credentials">Credentials</a>
-        <a href="#projects">Projects</a>
-      </nav>
+
+      <div class="nav-right">
+        <nav aria-label="Primary navigation">
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#expertise" data-i18n="nav.expertise">Expertise</a>
+          <a href="#credentials" data-i18n="nav.credentials">Credentials</a>
+          <a href="#projects" data-i18n="nav.projects">Projects</a>
+        </nav>
+
+        <div class="language-switcher" aria-label="Language selector">
+          <button type="button" data-lang="en" class="active">EN</button>
+          <button type="button" data-lang="sk">SK</button>
+          <button type="button" data-lang="ru">RU</button>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -24,23 +33,24 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <p class="eyebrow">EPLAN · INDUSTRIAL AUTOMATION · BUILDING AUTOMATION</p>
-          <h1>Engineering clarity for complex electrical projects.</h1>
-          <p class="lead">
+          <p class="eyebrow" data-i18n="hero.eyebrow">EPLAN · INDUSTRIAL AUTOMATION · BUILDING AUTOMATION</p>
+          <h1 data-i18n="hero.title">Engineering clarity for complex electrical projects.</h1>
+          <p class="lead" data-i18n="hero.lead">
             EPLAN engineering, consulting and preplanning for industrial automation,
             building automation and structured electrical design workflows.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#services">Explore services</a>
-            <a class="button secondary" href="#projects">Reference projects</a>
+            <a class="button primary" href="#services" data-i18n="hero.servicesButton">Explore services</a>
+            <a class="button secondary" href="#projects" data-i18n="hero.projectsButton">Reference projects</a>
           </div>
         </div>
+
         <aside class="hero-card">
-          <p class="card-label">Core focus</p>
+          <p class="card-label" data-i18n="heroCard.label">Core focus</p>
           <div class="metric">EPLAN</div>
-          <p>Engineering · Consulting · Preplanning</p>
+          <p data-i18n="heroCard.focus">Engineering · Consulting · Preplanning</p>
           <div class="divider"></div>
-          <p class="muted">
+          <p class="muted" data-i18n="heroCard.text">
             Supporting project teams from early planning and data structuring
             through detailed electrical engineering.
           </p>
@@ -50,29 +60,32 @@
 
     <section class="section" id="services">
       <div class="container">
-        <p class="section-kicker">Services</p>
-        <h2>Focused engineering support.</h2>
+        <p class="section-kicker" data-i18n="services.kicker">Services</p>
+        <h2 data-i18n="services.title">Focused engineering support.</h2>
+
         <div class="cards">
           <article class="card">
             <span class="number">01</span>
-            <h3>EPLAN Consulting</h3>
-            <p>
+            <h3 data-i18n="services.consulting.title">EPLAN Consulting</h3>
+            <p data-i18n="services.consulting.text">
               Consulting on EPLAN project structure, engineering workflows,
               standardization and efficient use of EPLAN in day-to-day project work.
             </p>
           </article>
+
           <article class="card">
             <span class="number">02</span>
-            <h3>EPLAN Engineering</h3>
-            <p>
+            <h3 data-i18n="services.engineering.title">EPLAN Engineering</h3>
+            <p data-i18n="services.engineering.text">
               Electrical engineering and project design in EPLAN for industrial
               automation and building automation applications.
             </p>
           </article>
+
           <article class="card">
             <span class="number">03</span>
-            <h3>EPLAN Preplanning</h3>
-            <p>
+            <h3 data-i18n="services.preplanning.title">EPLAN Preplanning</h3>
+            <p data-i18n="services.preplanning.text">
               Early-stage engineering, functional structuring and preparation of
               project data for a consistent transition into detailed design.
             </p>
@@ -84,21 +97,30 @@
     <section class="section alt" id="expertise">
       <div class="container split">
         <div>
-          <p class="section-kicker">Expertise</p>
-          <h2>From concept to structured documentation.</h2>
+          <p class="section-kicker" data-i18n="expertise.kicker">Expertise</p>
+          <h2 data-i18n="expertise.title">From concept to structured documentation.</h2>
         </div>
+
         <div class="feature-list">
           <div class="feature">
-            <h3>Industrial automation</h3>
-            <p>Electrical engineering for automation systems, control cabinets and machine-related projects.</p>
+            <h3 data-i18n="expertise.industrial.title">Industrial automation</h3>
+            <p data-i18n="expertise.industrial.text">
+              Electrical engineering for automation systems, control cabinets and machine-related projects.
+            </p>
           </div>
+
           <div class="feature">
-            <h3>Building automation</h3>
-            <p>Engineering support for building control, technical building systems and automation documentation.</p>
+            <h3 data-i18n="expertise.building.title">Building automation</h3>
+            <p data-i18n="expertise.building.text">
+              Engineering support for building control, technical building systems and automation documentation.
+            </p>
           </div>
+
           <div class="feature">
-            <h3>Engineering workflows</h3>
-            <p>Project structuring, naming conventions, reusable standards and consistent engineering data.</p>
+            <h3 data-i18n="expertise.workflows.title">Engineering workflows</h3>
+            <p data-i18n="expertise.workflows.text">
+              Project structuring, naming conventions, reusable standards and consistent engineering data.
+            </p>
           </div>
         </div>
       </div>
@@ -106,15 +128,17 @@
 
     <section class="section" id="credentials">
       <div class="container">
-        <p class="section-kicker">Credentials</p>
-        <h2>EPLAN Preplanning training.</h2>
+        <p class="section-kicker" data-i18n="credentials.kicker">Credentials</p>
+        <h2 data-i18n="credentials.title">EPLAN Preplanning training.</h2>
+
         <div class="credential-grid">
           <div class="credential">
-            <span>Certificate of course completion</span>
+            <span data-i18n="credentials.certificate">Certificate of course completion</span>
             <strong>EPLAN Preplanning Basic</strong>
           </div>
+
           <div class="credential">
-            <span>Certificate of course completion</span>
+            <span data-i18n="credentials.certificate">Certificate of course completion</span>
             <strong>EPLAN Preplanning Advanced</strong>
           </div>
         </div>
@@ -123,17 +147,18 @@
 
     <section class="section alt" id="projects">
       <div class="container">
-        <p class="section-kicker">Reference projects</p>
-        <h2>Selected work.</h2>
+        <p class="section-kicker" data-i18n="projects.kicker">Reference projects</p>
+        <h2 data-i18n="projects.title">Selected work.</h2>
+
         <div class="project-placeholder">
           <div>
-            <strong>Reference projects will be added here.</strong>
-            <p>
+            <strong data-i18n="projects.placeholderTitle">Reference projects will be added here.</strong>
+            <p data-i18n="projects.placeholderText">
               This section is ready for project descriptions, scope of work,
               industry, technologies and selected screenshots or diagrams.
             </p>
           </div>
-          <span>Coming next</span>
+          <span data-i18n="projects.badge">Coming next</span>
         </div>
       </div>
     </section>
@@ -141,8 +166,8 @@
     <section class="cta">
       <div class="container">
         <p class="section-kicker">Tolstykh Engineering</p>
-        <h2>EPLAN engineering built around structured, maintainable project data.</h2>
-        <p class="muted">
+        <h2 data-i18n="cta.title">EPLAN engineering built around structured, maintainable project data.</h2>
+        <p class="muted" data-i18n="cta.text">
           Contact details and additional reference projects will be added in the next update.
         </p>
       </div>
@@ -152,8 +177,10 @@
   <footer>
     <div class="container footer">
       <span>© 2026 Tolstykh Engineering</span>
-      <span>EPLAN Engineering & Consulting</span>
+      <span data-i18n="footer.tagline">EPLAN Engineering & Consulting</span>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
