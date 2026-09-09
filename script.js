@@ -4,15 +4,16 @@ const translations = {
     "nav.expertise": "Expertise",
     "nav.credentials": "Credentials",
     "nav.projects": "Projects",
+    "nav.contacts": "Contacts",
 
     "hero.eyebrow": "EPLAN · INDUSTRIAL AUTOMATION · BUILDING AUTOMATION",
     "hero.title": "Engineering clarity for complex electrical projects.",
-    "hero.lead": "EPLAN engineering, consulting and preplanning for industrial automation, building automation and structured electrical design workflows.",
+    "hero.lead": "EPLAN engineering, consulting and structured electrical design workflows for industrial automation and building automation.",
     "hero.servicesButton": "Explore services",
-    "hero.projectsButton": "Reference projects",
+    "hero.contactButton": "Contact",
 
     "heroCard.label": "Core focus",
-    "heroCard.focus": "Engineering · Consulting · Preplanning",
+    "heroCard.focus": "Engineering · Consulting",
     "heroCard.text": "Supporting project teams from early planning and data structuring through detailed electrical engineering.",
 
     "services.kicker": "Services",
@@ -21,8 +22,8 @@ const translations = {
     "services.consulting.text": "Consulting on EPLAN project structure, engineering workflows, standardization and efficient use of EPLAN in day-to-day project work.",
     "services.engineering.title": "EPLAN Engineering",
     "services.engineering.text": "Electrical engineering and project design in EPLAN for industrial automation and building automation applications.",
-    "services.preplanning.title": "EPLAN Preplanning",
-    "services.preplanning.text": "Early-stage engineering, functional structuring and preparation of project data for a consistent transition into detailed design.",
+    "services.training.title": "EPLAN Training",
+    "services.training.text": "Practical support and training background based on completed Basic and Advanced EPLAN courses.",
 
     "expertise.kicker": "Expertise",
     "expertise.title": "From concept to structured documentation.",
@@ -34,7 +35,7 @@ const translations = {
     "expertise.workflows.text": "Project structuring, naming conventions, reusable standards and consistent engineering data.",
 
     "credentials.kicker": "Credentials",
-    "credentials.title": "EPLAN Preplanning training.",
+    "credentials.title": "EPLAN training.",
     "credentials.certificate": "Certificate of course completion",
 
     "projects.kicker": "Reference projects",
@@ -43,8 +44,13 @@ const translations = {
     "projects.placeholderText": "This section is ready for project descriptions, scope of work, industry, technologies and selected screenshots or diagrams.",
     "projects.badge": "Coming next",
 
+    "contacts.kicker": "Contacts",
+    "contacts.title": "Get in touch.",
+    "contacts.emailLabel": "Email",
+    "contacts.phoneLabel": "Phone",
+
     "cta.title": "EPLAN engineering built around structured, maintainable project data.",
-    "cta.text": "Contact details and additional reference projects will be added in the next update.",
+    "cta.text": "Contact details are available below. Additional reference projects will be added in the next update.",
     "footer.tagline": "EPLAN Engineering & Consulting"
   },
 
@@ -53,15 +59,16 @@ const translations = {
     "nav.expertise": "Odbornosť",
     "nav.credentials": "Certifikáty",
     "nav.projects": "Projekty",
+    "nav.contacts": "Kontakt",
 
     "hero.eyebrow": "EPLAN · PRIEMYSELNÁ AUTOMATIZÁCIA · AUTOMATIZÁCIA BUDOV",
     "hero.title": "Jasné a systematické riešenia pre komplexné elektrotechnické projekty.",
-    "hero.lead": "Projektovanie, konzultácie a predprojektová príprava v EPLAN pre priemyselnú automatizáciu, automatizáciu budov a štruktúrované elektrotechnické workflow.",
+    "hero.lead": "Projektovanie, konzultácie a štruktúrované elektrotechnické workflow v EPLAN pre priemyselnú automatizáciu a automatizáciu budov.",
     "hero.servicesButton": "Pozrieť služby",
-    "hero.projectsButton": "Referenčné projekty",
+    "hero.contactButton": "Kontakt",
 
     "heroCard.label": "Hlavné zameranie",
-    "heroCard.focus": "Projektovanie · Konzultácie · Preplanning",
+    "heroCard.focus": "Projektovanie · Konzultácie",
     "heroCard.text": "Podpora projektových tímov od počiatočného plánovania a štruktúrovania dát až po detailné elektrotechnické projektovanie.",
 
     "services.kicker": "Služby",
@@ -70,8 +77,8 @@ const translations = {
     "services.consulting.text": "Konzultácie k štruktúre EPLAN projektov, inžinierskym workflow, štandardizácii a efektívnemu využívaniu EPLAN v každodennej projektovej práci.",
     "services.engineering.title": "EPLAN Engineering",
     "services.engineering.text": "Elektrotechnické projektovanie v EPLAN pre priemyselnú automatizáciu a systémy automatizácie budov.",
-    "services.preplanning.title": "EPLAN Preplanning",
-    "services.preplanning.text": "Predprojektová príprava, funkčné štruktúrovanie a príprava projektových dát pre plynulý prechod do detailného projektovania.",
+    "services.training.title": "EPLAN Training",
+    "services.training.text": "Praktická podpora a odborné zázemie vychádzajúce z absolvovaných kurzov Basic a Advanced.",
 
     "expertise.kicker": "Odbornosť",
     "expertise.title": "Od konceptu po štruktúrovanú dokumentáciu.",
@@ -83,7 +90,7 @@ const translations = {
     "expertise.workflows.text": "Štruktúrovanie projektov, pravidlá pomenovania, opakovane použiteľné štandardy a konzistentné projektové dáta.",
 
     "credentials.kicker": "Certifikáty",
-    "credentials.title": "Školenia EPLAN Preplanning.",
+    "credentials.title": "EPLAN školenia.",
     "credentials.certificate": "Certifikát o absolvovaní kurzu",
 
     "projects.kicker": "Referenčné projekty",
@@ -92,8 +99,13 @@ const translations = {
     "projects.placeholderText": "Táto sekcia je pripravená na opisy projektov, rozsah prác, odvetvie, použité technológie a vybrané náhľady alebo schémy.",
     "projects.badge": "Pripravujeme",
 
+    "contacts.kicker": "Kontakt",
+    "contacts.title": "Ozvite sa.",
+    "contacts.emailLabel": "Email",
+    "contacts.phoneLabel": "Telefón",
+
     "cta.title": "EPLAN projektovanie založené na štruktúrovaných a dlhodobo udržateľných projektových dátach.",
-    "cta.text": "Kontaktné údaje a ďalšie referenčné projekty doplníme v ďalšej aktualizácii.",
+    "cta.text": "Kontaktné údaje sú uvedené nižšie. Ďalšie referenčné projekty doplníme v ďalšej aktualizácii.",
     "footer.tagline": "EPLAN projektovanie a konzultácie"
   },
 
@@ -102,15 +114,16 @@ const translations = {
     "nav.expertise": "Компетенции",
     "nav.credentials": "Сертификаты",
     "nav.projects": "Проекты",
+    "nav.contacts": "Контакты",
 
     "hero.eyebrow": "EPLAN · ПРОМЫШЛЕННАЯ АВТОМАТИЗАЦИЯ · АВТОМАТИЗАЦИЯ ЗДАНИЙ",
     "hero.title": "Системный подход к сложным электротехническим проектам.",
-    "hero.lead": "Проектирование, консалтинг и предпроектная подготовка в EPLAN для промышленной автоматизации, автоматизации зданий и структурированных процессов электротехнического проектирования.",
+    "hero.lead": "Проектирование, консалтинг и структурированные процессы электротехнического проектирования в EPLAN для промышленной автоматизации и автоматизации зданий.",
     "hero.servicesButton": "Посмотреть услуги",
-    "hero.projectsButton": "Референсные проекты",
+    "hero.contactButton": "Контакты",
 
     "heroCard.label": "Основные направления",
-    "heroCard.focus": "Проектирование · Консалтинг · Preplanning",
+    "heroCard.focus": "Проектирование · Консалтинг",
     "heroCard.text": "Поддержка проектных команд от раннего планирования и структурирования данных до детального электротехнического проектирования.",
 
     "services.kicker": "Услуги",
@@ -119,8 +132,8 @@ const translations = {
     "services.consulting.text": "Консалтинг по структуре проектов EPLAN, инженерным процессам, стандартизации и эффективному использованию EPLAN в повседневной проектной работе.",
     "services.engineering.title": "EPLAN Engineering",
     "services.engineering.text": "Электротехническое проектирование в EPLAN для промышленной автоматизации и систем автоматизации зданий.",
-    "services.preplanning.title": "EPLAN Preplanning",
-    "services.preplanning.text": "Предпроектная подготовка, функциональное структурирование и подготовка проектных данных для последовательного перехода к детальному проектированию.",
+    "services.training.title": "EPLAN Training",
+    "services.training.text": "Практическая поддержка и профессиональная база, основанная на пройденных курсах Basic и Advanced.",
 
     "expertise.kicker": "Компетенции",
     "expertise.title": "От концепции до структурированной документации.",
@@ -132,7 +145,7 @@ const translations = {
     "expertise.workflows.text": "Структурирование проектов, правила именования, повторно используемые стандарты и согласованные инженерные данные.",
 
     "credentials.kicker": "Сертификаты",
-    "credentials.title": "Обучение EPLAN Preplanning.",
+    "credentials.title": "Обучение EPLAN.",
     "credentials.certificate": "Сертификат о прохождении курса",
 
     "projects.kicker": "Референсные проекты",
@@ -141,8 +154,13 @@ const translations = {
     "projects.placeholderText": "Этот раздел подготовлен для описания проектов, объема работ, отрасли, технологий и выбранных скриншотов или схем.",
     "projects.badge": "Скоро",
 
+    "contacts.kicker": "Контакты",
+    "contacts.title": "Свяжитесь со мной.",
+    "contacts.emailLabel": "Email",
+    "contacts.phoneLabel": "Телефон",
+
     "cta.title": "Проектирование в EPLAN на основе структурированных и поддерживаемых проектных данных.",
-    "cta.text": "Контактные данные и дополнительные референсные проекты будут добавлены в следующем обновлении.",
+    "cta.text": "Контактные данные указаны ниже. Дополнительные референсные проекты будут добавлены в следующем обновлении.",
     "footer.tagline": "EPLAN проектирование и консалтинг"
   }
 };
