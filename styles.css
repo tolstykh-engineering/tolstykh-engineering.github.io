@@ -408,3 +408,13 @@ footer {
     font-size: 1.12rem;
   }
 }
+
+/* v7 broader services */
+.services-grid{grid-template-columns:repeat(3,1fr)}
+.services-grid .card{min-height:300px}
+.capability-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.capability{background:var(--surface);border:1px solid rgba(13,92,99,.12);border-radius:14px;padding:28px;backdrop-filter:blur(8px)}
+.capability p{color:#667085;margin-bottom:0}
+.hero-card .metric{font-size:clamp(2.2rem,4vw,3.4rem)}
+@media(max-width:1080px){.services-grid,.capability-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:720px){.services-grid,.capability-grid{grid-template-columns:1fr}}

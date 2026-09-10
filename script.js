@@ -1,50 +1,55 @@
-
 const translations = {
-  en: {
+  "en": {
     "nav.services": "Services",
-    "nav.expertise": "Expertise",
-    "nav.credentials": "Credentials",
+    "nav.capabilities": "Capabilities",
+    "nav.credentials": "Certificates",
     "nav.projects": "Projects",
     "nav.contacts": "Contacts",
-
-    "hero.eyebrow": "EPLAN · INDUSTRIAL AUTOMATION · BUILDING AUTOMATION",
-    "hero.title": "Engineering clarity for complex electrical projects.",
-    "hero.lead": "EPLAN engineering, consulting and structured electrical design workflows for industrial automation and building automation.",
+    "hero.eyebrow": "ENGINEERING · IT · DIGITAL SYSTEMS",
+    "hero.title": "Practical engineering and IT solutions for business.",
+    "hero.lead": "EPLAN and automation engineering, IT consulting, website development and support, Microsoft 365, SQL, data workflows and coordination of digital and e-commerce projects.",
     "hero.servicesButton": "Explore services",
     "hero.contactButton": "Contact",
-
     "heroCard.label": "Core focus",
-    "heroCard.focus": "Engineering · Consulting",
-    "heroCard.text": "Supporting project teams from early planning and data structuring through detailed electrical engineering.",
-
+    "heroCard.metric": "Engineering + IT",
+    "heroCard.focus": "Consulting · Implementation · Support",
+    "heroCard.text": "From technical design and system requirements to implementation, testing, documentation and ongoing support.",
     "services.kicker": "Services",
-    "services.title": "Focused engineering support.",
-    "services.consulting.title": "EPLAN Consulting",
-    "services.consulting.text": "Consulting on EPLAN project structure, engineering workflows, standardization and efficient use of EPLAN in day-to-day project work.",
-    "services.engineering.title": "EPLAN Engineering",
-    "services.engineering.text": "Electrical engineering and project design in EPLAN for industrial automation and building automation applications.",
-    "services.training.title": "EPLAN Training",
-    "services.training.text": "Practical support and training background based on completed Basic and Advanced EPLAN courses.",
-
-    "expertise.kicker": "Expertise",
-    "expertise.title": "From concept to structured documentation.",
-    "expertise.industrial.title": "Industrial automation",
-    "expertise.industrial.text": "Electrical engineering for automation systems, control cabinets and machine-related projects.",
-    "expertise.building.title": "Building automation",
-    "expertise.building.text": "Engineering support for building control, technical building systems and automation documentation.",
-    "expertise.workflows.title": "Engineering workflows",
-    "expertise.workflows.text": "Project structuring, naming conventions, reusable standards and consistent engineering data.",
-
-    "credentials.kicker": "Credentials",
-    "credentials.title": "EPLAN training.",
-    "credentials.certificate": "Certificate of course completion",
-
+    "services.title": "A broader range of engineering and digital services.",
+    "services.eplan.title": "EPLAN Consulting & Engineering",
+    "services.eplan.text": "Consulting on project structure, standards and engineering workflows, plus electrical design in EPLAN for industrial and building automation.",
+    "services.it.title": "IT Consulting & Support",
+    "services.it.text": "Analysis of business IT needs, selection and configuration of practical tools, user access, security settings and support with day-to-day technical issues.",
+    "services.web.title": "Website Development & Support",
+    "services.web.text": "Creation and maintenance of websites, content and functionality updates, hosting and domain setup, troubleshooting and coordination with developers.",
+    "services.office.title": "Microsoft 365 & Office Support",
+    "services.office.text": "Consulting and support for Excel, Word, Outlook, PowerPoint and Microsoft 365, including templates, data handling and practical workflow improvements.",
+    "services.sql.title": "SQL & Data Work",
+    "services.sql.text": "SQL queries, data extraction and validation, structured imports and exports, CSV/Excel processing and support with reporting and data preparation.",
+    "services.digital.title": "Digital Project & E-commerce Support",
+    "services.digital.text": "Requirements, QA, acceptance testing and coordination of websites and online stores, including payments, delivery, fulfillment, analytics and third-party integrations.",
+    "capabilities.kicker": "Capabilities",
+    "capabilities.title": "Work I can take on.",
+    "capabilities.automation.title": "Industrial & Building Automation",
+    "capabilities.automation.text": "Electrical engineering, automation documentation, control cabinets, ventilation, lighting, access control, fire and low-current systems.",
+    "capabilities.web.title": "Web & E-commerce Implementation",
+    "capabilities.web.text": "Website structure, admin workflows, product data, checkout, payment and delivery setup, fulfillment integration, analytics and technical launch support.",
+    "capabilities.integrations.title": "Systems & Integrations",
+    "capabilities.integrations.text": "API-related coordination, service integrations, user access and permissions, account setup, two-factor authentication and technical configuration.",
+    "capabilities.data.title": "Data & Office Workflows",
+    "capabilities.data.text": "Excel and CSV preparation, imports and exports, data cleanup, validation, SQL queries and structured operational reporting.",
+    "capabilities.qa.title": "QA & Project Coordination",
+    "capabilities.qa.text": "Website and system testing, issue tracking, requirements clarification, developer coordination, acceptance checks and implementation follow-up.",
+    "capabilities.docs.title": "Technical Documentation",
+    "capabilities.docs.text": "User instructions, process descriptions, technical requirements, implementation notes and structured documentation for teams and contractors.",
+    "credentials.kicker": "Certificates",
+    "credentials.title": "EPLAN certificates.",
+    "credentials.certificate": "Certificate",
     "projects.kicker": "Reference projects",
     "projects.title": "Selected work.",
     "projects.project1.tag1": "Oil & Gas",
     "projects.project1.tag2": "Drilling Rigs",
     "projects.project1.tag3": "Industrial Automation",
-    "projects.project1.title": "RIG Oil & Gas",
     "projects.project1.text": "Development of automation systems, engineering and programming of drilling rigs for oil and gas well construction.",
     "projects.project2.tag1": "Ventilation",
     "projects.project2.tag2": "Process Industry",
@@ -56,62 +61,65 @@ const translations = {
     "projects.project3.tag3": "BMS",
     "projects.project3.title": "Building Systems Automation",
     "projects.project3.text": "Building automation for ventilation, lighting, access control, fire safety systems and low-current systems within commercial and industrial buildings.",
-
     "contacts.kicker": "Contacts",
     "contacts.title": "Get in touch.",
     "contacts.emailLabel": "Email",
     "contacts.phoneLabel": "Phone",
-
-    "cta.title": "EPLAN engineering built around structured, maintainable project data.",
-    "cta.text": "Contact details are available below. Additional reference projects will be added in the next update.",
-    "footer.tagline": "EPLAN Engineering & Consulting"
+    "cta.title": "Engineering, IT and digital support focused on practical implementation.",
+    "cta.text": "Available for consulting, implementation, technical support and project-based cooperation.",
+    "footer.tagline": "Engineering · IT · Digital Consulting"
   },
-
-  sk: {
+  "sk": {
     "nav.services": "Služby",
-    "nav.expertise": "Odbornosť",
+    "nav.capabilities": "Kompetencie",
     "nav.credentials": "Certifikáty",
     "nav.projects": "Projekty",
     "nav.contacts": "Kontakt",
-
-    "hero.eyebrow": "EPLAN · PRIEMYSELNÁ AUTOMATIZÁCIA · AUTOMATIZÁCIA BUDOV",
-    "hero.title": "Jasné a systematické riešenia pre komplexné elektrotechnické projekty.",
-    "hero.lead": "Projektovanie, konzultácie a štruktúrované elektrotechnické workflow v EPLAN pre priemyselnú automatizáciu a automatizáciu budov.",
+    "hero.eyebrow": "ENGINEERING · IT · DIGITÁLNE SYSTÉMY",
+    "hero.title": "Praktické technické a IT riešenia pre firmy.",
+    "hero.lead": "EPLAN a automatizácia, IT konzultácie, vývoj a podpora webových stránok, Microsoft 365, SQL, dátové workflow a koordinácia digitálnych a e-commerce projektov.",
     "hero.servicesButton": "Pozrieť služby",
     "hero.contactButton": "Kontakt",
-
     "heroCard.label": "Hlavné zameranie",
-    "heroCard.focus": "Projektovanie · Konzultácie",
-    "heroCard.text": "Podpora projektových tímov od počiatočného plánovania a štruktúrovania dát až po detailné elektrotechnické projektovanie.",
-
+    "heroCard.metric": "Engineering + IT",
+    "heroCard.focus": "Konzultácie · Implementácia · Podpora",
+    "heroCard.text": "Od technického návrhu a požiadaviek až po implementáciu, testovanie, dokumentáciu a následnú podporu.",
     "services.kicker": "Služby",
-    "services.title": "Cielená technická podpora.",
-    "services.consulting.title": "EPLAN Consulting",
-    "services.consulting.text": "Konzultácie k štruktúre EPLAN projektov, inžinierskym workflow, štandardizácii a efektívnemu využívaniu EPLAN v každodennej projektovej práci.",
-    "services.engineering.title": "EPLAN Engineering",
-    "services.engineering.text": "Elektrotechnické projektovanie v EPLAN pre priemyselnú automatizáciu a systémy automatizácie budov.",
-    "services.training.title": "EPLAN Training",
-    "services.training.text": "Praktická podpora a odborné zázemie vychádzajúce z absolvovaných kurzov Basic a Advanced.",
-
-    "expertise.kicker": "Odbornosť",
-    "expertise.title": "Od konceptu po štruktúrovanú dokumentáciu.",
-    "expertise.industrial.title": "Priemyselná automatizácia",
-    "expertise.industrial.text": "Elektrotechnické projektovanie automatizačných systémov, rozvádzačov a strojových zariadení.",
-    "expertise.building.title": "Automatizácia budov",
-    "expertise.building.text": "Projektová podpora pre riadenie budov, technické zariadenia budov a dokumentáciu automatizačných systémov.",
-    "expertise.workflows.title": "Inžinierske workflow",
-    "expertise.workflows.text": "Štruktúrovanie projektov, pravidlá pomenovania, opakovane použiteľné štandardy a konzistentné projektové dáta.",
-
+    "services.title": "Širšie portfólio technických a digitálnych služieb.",
+    "services.eplan.title": "EPLAN Consulting & Engineering",
+    "services.eplan.text": "Konzultácie k štruktúre projektov, štandardom a inžinierskym workflow, ako aj elektrotechnické projektovanie v EPLAN pre priemyselnú automatizáciu a automatizáciu budov.",
+    "services.it.title": "IT konzultácie a podpora",
+    "services.it.text": "Analýza IT potrieb firmy, výber a konfigurácia praktických nástrojov, používateľské prístupy, bezpečnostné nastavenia a riešenie bežných technických problémov.",
+    "services.web.title": "Vývoj a podpora webových stránok",
+    "services.web.text": "Tvorba a údržba webových stránok, úpravy obsahu a funkcií, nastavenie hostingu a domény, riešenie problémov a koordinácia s vývojármi.",
+    "services.office.title": "Microsoft 365 & Office podpora",
+    "services.office.text": "Konzultácie a podpora pre Excel, Word, Outlook, PowerPoint a Microsoft 365 vrátane šablón, práce s dátami a zlepšovania praktických pracovných postupov.",
+    "services.sql.title": "SQL a práca s dátami",
+    "services.sql.text": "SQL dotazy, získavanie a kontrola dát, štruktúrované importy a exporty, spracovanie CSV/Excel a podpora reportingu a prípravy dát.",
+    "services.digital.title": "Digitálne projekty a e-commerce",
+    "services.digital.text": "Požiadavky, QA, akceptačné testovanie a koordinácia webov a e-shopov vrátane platieb, dopravy, fulfillmentu, analytiky a externých integrácií.",
+    "capabilities.kicker": "Kompetencie",
+    "capabilities.title": "Práce, ktoré môžem prevziať.",
+    "capabilities.automation.title": "Priemyselná automatizácia a automatizácia budov",
+    "capabilities.automation.text": "Elektrotechnické projektovanie, dokumentácia automatizácie, rozvádzače, vetranie, osvetlenie, kontrola prístupu, požiarne a slaboprúdové systémy.",
+    "capabilities.web.title": "Web a e-commerce implementácia",
+    "capabilities.web.text": "Štruktúra webu, administrácia, produktové dáta, checkout, platby a doprava, fulfillment integrácia, analytika a technická podpora spustenia.",
+    "capabilities.integrations.title": "Systémy a integrácie",
+    "capabilities.integrations.text": "Koordinácia API a integrácií služieb, používateľské prístupy a oprávnenia, nastavenie účtov, dvojfaktorová autentifikácia a technická konfigurácia.",
+    "capabilities.data.title": "Dáta a Office workflow",
+    "capabilities.data.text": "Príprava Excel a CSV, importy a exporty, čistenie dát, kontrola, SQL dotazy a štruktúrovaný prevádzkový reporting.",
+    "capabilities.qa.title": "QA a koordinácia projektov",
+    "capabilities.qa.text": "Testovanie webov a systémov, evidencia chýb, spresňovanie požiadaviek, koordinácia vývojárov, akceptačné kontroly a dohľad nad implementáciou.",
+    "capabilities.docs.title": "Technická dokumentácia",
+    "capabilities.docs.text": "Používateľské návody, popisy procesov, technické požiadavky, implementačné poznámky a štruktúrovaná dokumentácia pre tímy a dodávateľov.",
     "credentials.kicker": "Certifikáty",
-    "credentials.title": "EPLAN školenia.",
-    "credentials.certificate": "Certifikát o absolvovaní kurzu",
-
+    "credentials.title": "EPLAN certifikáty.",
+    "credentials.certificate": "Certifikát",
     "projects.kicker": "Referenčné projekty",
     "projects.title": "Vybrané projekty.",
     "projects.project1.tag1": "Ropa a plyn",
     "projects.project1.tag2": "Vrtné súpravy",
     "projects.project1.tag3": "Priemyselná automatizácia",
-    "projects.project1.title": "RIG Oil & Gas",
     "projects.project1.text": "Vývoj automatizačných systémov, projektovanie a programovanie vrtných súprav pre výstavbu ropných a plynových vrtov.",
     "projects.project2.tag1": "Vetranie",
     "projects.project2.tag2": "Procesný priemysel",
@@ -123,62 +131,65 @@ const translations = {
     "projects.project3.tag3": "BMS",
     "projects.project3.title": "Automatizácia systémov budov",
     "projects.project3.text": "Automatizácia budov pre vetranie, osvetlenie, kontrolu prístupu, požiarne systémy a slaboprúdové systémy v komerčných a priemyselných budovách.",
-
     "contacts.kicker": "Kontakt",
     "contacts.title": "Ozvite sa.",
     "contacts.emailLabel": "Email",
     "contacts.phoneLabel": "Telefón",
-
-    "cta.title": "EPLAN projektovanie založené na štruktúrovaných a dlhodobo udržateľných projektových dátach.",
-    "cta.text": "Kontaktné údaje sú uvedené nižšie. Ďalšie referenčné projekty doplníme v ďalšej aktualizácii.",
-    "footer.tagline": "EPLAN projektovanie a konzultácie"
+    "cta.title": "Engineering, IT a digitálna podpora so zameraním na praktickú implementáciu.",
+    "cta.text": "K dispozícii pre konzultácie, implementáciu, technickú podporu a projektovú spoluprácu.",
+    "footer.tagline": "Engineering · IT · Digitálne konzultácie"
   },
-
-  ru: {
+  "ru": {
     "nav.services": "Услуги",
-    "nav.expertise": "Компетенции",
+    "nav.capabilities": "Компетенции",
     "nav.credentials": "Сертификаты",
     "nav.projects": "Проекты",
     "nav.contacts": "Контакты",
-
-    "hero.eyebrow": "EPLAN · ПРОМЫШЛЕННАЯ АВТОМАТИЗАЦИЯ · АВТОМАТИЗАЦИЯ ЗДАНИЙ",
-    "hero.title": "Системный подход к сложным электротехническим проектам.",
-    "hero.lead": "Проектирование, консалтинг и структурированные процессы электротехнического проектирования в EPLAN для промышленной автоматизации и автоматизации зданий.",
+    "hero.eyebrow": "ИНЖИНИРИНГ · IT · ЦИФРОВЫЕ СИСТЕМЫ",
+    "hero.title": "Практичные инженерные и IT-решения для бизнеса.",
+    "hero.lead": "EPLAN и автоматизация, IT-консалтинг, разработка и поддержка сайтов, Microsoft 365, SQL, работа с данными и координация цифровых и e-commerce проектов.",
     "hero.servicesButton": "Посмотреть услуги",
     "hero.contactButton": "Контакты",
-
     "heroCard.label": "Основные направления",
-    "heroCard.focus": "Проектирование · Консалтинг",
-    "heroCard.text": "Поддержка проектных команд от раннего планирования и структурирования данных до детального электротехнического проектирования.",
-
+    "heroCard.metric": "Engineering + IT",
+    "heroCard.focus": "Консалтинг · Реализация · Поддержка",
+    "heroCard.text": "От технического проектирования и постановки требований до реализации, тестирования, документации и дальнейшей поддержки.",
     "services.kicker": "Услуги",
-    "services.title": "Профессиональная инженерная поддержка.",
-    "services.consulting.title": "EPLAN Consulting",
-    "services.consulting.text": "Консалтинг по структуре проектов EPLAN, инженерным процессам, стандартизации и эффективному использованию EPLAN в повседневной проектной работе.",
-    "services.engineering.title": "EPLAN Engineering",
-    "services.engineering.text": "Электротехническое проектирование в EPLAN для промышленной автоматизации и систем автоматизации зданий.",
-    "services.training.title": "EPLAN Training",
-    "services.training.text": "Практическая поддержка и профессиональная база, основанная на пройденных курсах Basic и Advanced.",
-
-    "expertise.kicker": "Компетенции",
-    "expertise.title": "От концепции до структурированной документации.",
-    "expertise.industrial.title": "Промышленная автоматизация",
-    "expertise.industrial.text": "Электротехническое проектирование систем автоматизации, шкафов управления и проектов, связанных с машинами и оборудованием.",
-    "expertise.building.title": "Автоматизация зданий",
-    "expertise.building.text": "Инженерная поддержка систем управления зданиями, технических систем зданий и документации по автоматизации.",
-    "expertise.workflows.title": "Инженерные процессы",
-    "expertise.workflows.text": "Структурирование проектов, правила именования, повторно используемые стандарты и согласованные инженерные данные.",
-
+    "services.title": "Более широкий спектр инженерных и цифровых услуг.",
+    "services.eplan.title": "EPLAN — консалтинг и проектирование",
+    "services.eplan.text": "Консалтинг по структуре проектов, стандартам и инженерным процессам, а также электротехническое проектирование в EPLAN для промышленной автоматизации и автоматизации зданий.",
+    "services.it.title": "IT-консалтинг и техническая поддержка",
+    "services.it.text": "Анализ IT-задач бизнеса, подбор и настройка практичных инструментов, управление доступами, настройками безопасности и помощь с повседневными техническими вопросами.",
+    "services.web.title": "Разработка и поддержка сайтов",
+    "services.web.text": "Создание и сопровождение сайтов, изменение контента и функциональности, настройка хостинга и домена, поиск неисправностей и координация работы разработчиков.",
+    "services.office.title": "Microsoft 365 и Office — консультация и поддержка",
+    "services.office.text": "Консультации и поддержка по Excel, Word, Outlook, PowerPoint и Microsoft 365, включая шаблоны, обработку данных и улучшение рабочих процессов.",
+    "services.sql.title": "SQL и работа с данными",
+    "services.sql.text": "SQL-запросы, выгрузка и проверка данных, структурированные импорт и экспорт, обработка CSV/Excel, подготовка данных и отчетности.",
+    "services.digital.title": "Цифровые проекты и e-commerce",
+    "services.digital.text": "Формирование требований, QA, приемочное тестирование и координация сайтов и интернет-магазинов, включая платежи, доставку, fulfillment, аналитику и внешние интеграции.",
+    "capabilities.kicker": "Компетенции",
+    "capabilities.title": "Какие работы я могу выполнить.",
+    "capabilities.automation.title": "Промышленная автоматизация и автоматизация зданий",
+    "capabilities.automation.text": "Электротехническое проектирование, документация по автоматизации, шкафы управления, вентиляция, освещение, контроль доступа, пожарные и слаботочные системы.",
+    "capabilities.web.title": "Web и e-commerce внедрение",
+    "capabilities.web.text": "Структура сайта, административные процессы, товарные данные, checkout, платежи и доставка, fulfillment-интеграции, аналитика и техническое сопровождение запуска.",
+    "capabilities.integrations.title": "Системы и интеграции",
+    "capabilities.integrations.text": "Координация API и интеграций сервисов, доступы и права пользователей, настройка аккаунтов, двухфакторная аутентификация и техническая конфигурация.",
+    "capabilities.data.title": "Данные и Office-процессы",
+    "capabilities.data.text": "Подготовка Excel и CSV, импорт и экспорт, очистка и проверка данных, SQL-запросы и структурированная операционная отчетность.",
+    "capabilities.qa.title": "QA и координация проектов",
+    "capabilities.qa.text": "Тестирование сайтов и систем, учет ошибок, уточнение требований, координация разработчиков, приемочные проверки и контроль внедрения.",
+    "capabilities.docs.title": "Техническая документация",
+    "capabilities.docs.text": "Пользовательские инструкции, описание процессов, технические требования, заметки по реализации и структурированная документация для команд и подрядчиков.",
     "credentials.kicker": "Сертификаты",
-    "credentials.title": "Обучение EPLAN.",
-    "credentials.certificate": "Сертификат о прохождении курса",
-
+    "credentials.title": "Сертификаты EPLAN.",
+    "credentials.certificate": "Сертификат",
     "projects.kicker": "Референсные проекты",
     "projects.title": "Избранные проекты.",
     "projects.project1.tag1": "Нефтегазовая отрасль",
     "projects.project1.tag2": "Буровые установки",
     "projects.project1.tag3": "Промышленная автоматизация",
-    "projects.project1.title": "RIG Oil & Gas",
     "projects.project1.text": "Разработка систем автоматизации, проектирование и программирование буровых установок для строительства скважин нефти и газа.",
     "projects.project2.tag1": "Вентиляция",
     "projects.project2.tag2": "Промышленность",
@@ -187,61 +198,21 @@ const translations = {
     "projects.project2.text": "Системы вентиляции для крупных промышленных предприятий, включая нефтеперерабатывающие заводы, покрасочные камеры, производство цемента, цветную металлургию, печи и газоочистные сооружения.",
     "projects.project3.tag1": "Автоматизация зданий",
     "projects.project3.tag2": "Вентиляция",
-    "projects.project3.tag3": "Слаботочные системы",
+    "projects.project3.tag3": "BMS",
     "projects.project3.title": "Автоматизация инженерных систем зданий",
     "projects.project3.text": "Автоматизация зданий и инженерных систем: вентиляция, освещение, контроль доступа, пожарные системы и слаботочные системы для коммерческих и промышленных объектов.",
-
     "contacts.kicker": "Контакты",
     "contacts.title": "Свяжитесь со мной.",
     "contacts.emailLabel": "Email",
     "contacts.phoneLabel": "Телефон",
-
-    "cta.title": "Проектирование в EPLAN на основе структурированных и поддерживаемых проектных данных.",
-    "cta.text": "Контактные данные указаны ниже. Дополнительные референсные проекты будут добавлены в следующем обновлении.",
-    "footer.tagline": "EPLAN проектирование и консалтинг"
+    "cta.title": "Инжиниринг, IT и цифровая поддержка с фокусом на практическую реализацию.",
+    "cta.text": "Доступен для консалтинга, реализации, технической поддержки и проектного сотрудничества.",
+    "footer.tagline": "Инжиниринг · IT · Цифровой консалтинг"
   }
 };
 
-const supportedLanguages = ["en", "sk", "ru"];
-
-function detectInitialLanguage() {
-  const saved = localStorage.getItem("siteLanguage");
-  if (supportedLanguages.includes(saved)) return saved;
-
-  const browser = (navigator.language || "en").toLowerCase();
-  if (browser.startsWith("sk")) return "sk";
-  if (browser.startsWith("ru")) return "ru";
-  return "en";
-}
-
-function setLanguage(lang) {
-  if (!supportedLanguages.includes(lang)) lang = "en";
-
-  document.documentElement.lang = lang;
-  localStorage.setItem("siteLanguage", lang);
-
-  document.querySelectorAll("[data-i18n]").forEach((element) => {
-    const key = element.dataset.i18n;
-    if (translations[lang][key]) {
-      element.textContent = translations[lang][key];
-    }
-  });
-
-  document.querySelectorAll("[data-lang]").forEach((button) => {
-    button.classList.toggle("active", button.dataset.lang === lang);
-    button.setAttribute("aria-pressed", button.dataset.lang === lang ? "true" : "false");
-  });
-
-  const pageTitles = {
-    en: "Tolstykh Engineering | EPLAN Engineering & Consulting",
-    sk: "Tolstykh Engineering | EPLAN projektovanie a konzultácie",
-    ru: "Tolstykh Engineering | EPLAN проектирование и консалтинг"
-  };
-  document.title = pageTitles[lang];
-}
-
-document.querySelectorAll("[data-lang]").forEach((button) => {
-  button.addEventListener("click", () => setLanguage(button.dataset.lang));
-});
-
+const supportedLanguages=["en","sk","ru"];
+function detectInitialLanguage(){const saved=localStorage.getItem("siteLanguage");if(supportedLanguages.includes(saved))return saved;const browser=(navigator.language||"en").toLowerCase();if(browser.startsWith("sk"))return "sk";if(browser.startsWith("ru"))return "ru";return "en";}
+function setLanguage(lang){if(!supportedLanguages.includes(lang))lang="en";document.documentElement.lang=lang;localStorage.setItem("siteLanguage",lang);document.querySelectorAll("[data-i18n]").forEach(el=>{const key=el.dataset.i18n;if(translations[lang][key])el.textContent=translations[lang][key];});document.querySelectorAll("[data-lang]").forEach(btn=>{btn.classList.toggle("active",btn.dataset.lang===lang);btn.setAttribute("aria-pressed",btn.dataset.lang===lang?"true":"false");});const titles={en:"Tolstykh Engineering | Engineering, IT & Digital Consulting",sk:"Tolstykh Engineering | Engineering, IT a digitálne konzultácie",ru:"Tolstykh Engineering | Инжиниринг, IT и цифровой консалтинг"};document.title=titles[lang];}
+document.querySelectorAll("[data-lang]").forEach(btn=>btn.addEventListener("click",()=>setLanguage(btn.dataset.lang)));
 setLanguage(detectInitialLanguage());
